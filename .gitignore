@@ -1,0 +1,13 @@
+# Dati grezzi (troppo pesanti, si scaricano dal link ARPA)
+data/Dati_sensori_aria_2025.csv
+
+# File di sistema
+.DS_Store
+Thumbs.db
+
+# Ambiente Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.env

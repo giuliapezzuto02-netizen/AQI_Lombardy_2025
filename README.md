@@ -1,6 +1,6 @@
 # Analisi della qualità dell'aria in Lombardia nel 2025
 
-Analisi della qualità dell'aria nelle province della Lombardia nel 2025, a partire dai dati delle stazioni di monitoraggio ARPA Lombardia. Il progetto esplora le relazioni statistiche tra inquinanti, costruisce un indice di qualità dell'aria a livello provinciale, valuta la conformità rispetto ai nuovi limiti UE in vigore dal 2030, e produce mappe di interpolazione spaziale per una selezione di inquinanti.
+Analisi della qualità dell'aria nelle province della Lombardia nel 2025, a partire dai dati delle stazioni di monitoraggio ARPA Lombardia. Il progetto esplora le relazioni statistiche tra inquinanti, costruisce un indice di qualità dell'aria a livello provinciale, valuta la conformità rispetto ai nuovi limiti UE in vigore dal 2030, e produce mappe di interpolazione spaziale per il Biossido di Azoto (NO2).
 
 ## Dati
 
@@ -20,7 +20,7 @@ air-quality-lombardy-2025/
 ├── README.md
 ├── requirements.txt
 ├── .gitignore
-├── data/                                 # dati grezzi e istruzioni per scaricarli
+├── data/                                 # dati grezzi
 ├── notebooks/
 │   ├── 01_correlazione_pca.ipynb
 │   ├── 02_indice_qualita_aria.ipynb

@@ -35,7 +35,7 @@ air-quality-lombardy-2025/
 ### 1. Matrice di correlazione e PCA
 Analizza le relazioni statistiche tra 8 inquinanti (NOx, NO2, SO2, CO, O3, PM10, PM2.5, Benzene) attraverso una matrice di correlazione e un'analisi delle componenti principali (PCA), come base esplorativa per le analisi successive.
 
-![Matrice di correlazione](output/correlation_matrix.png)
+![Matrice di correlazione](output/correlazione_inquinanti.png)
 
 Pattern principali emersi: forte correlazione tra NOx e NO2 (0.86) e tra PM10 e PM2.5 (0.94), coerentemente con la relazione diretta tra questi inquinanti; l'ozono è correlato negativamente con quasi tutti gli altri inquinanti (es. -0.62 con NO2 e Benzene), coerentemente con la sua dinamica fotochimica legata al traffico.
 

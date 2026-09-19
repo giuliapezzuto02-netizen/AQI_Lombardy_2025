@@ -19,15 +19,15 @@ I dati provengono dal portale Open Data di Regione Lombardia:
 air-quality-lombardy-2025/
 ├── README.md
 ├── requirements.txt
-├── data/                              # dati grezzi e istruzioni per scaricarli
+├── .gitignore
+├── data/                                 # dati grezzi e istruzioni per scaricarli
 ├── notebooks/
 │   ├── 01_correlazione_pca.ipynb
 │   ├── 02_indice_qualita_aria.ipynb
 │   ├── 03_superamenti_soglie_UE.ipynb
 │   └── 04_interpolazione_spaziale.ipynb
-├── src/
-│   └── functions.py                       # funzioni condivise tra i notebook
-└── output/                            # immagini e risultati esportati
+│   └── functions.py                      # funzioni condivise tra i notebook
+└── output/                               # immagini e risultati esportati
 ```
 
 ## I 4 notebook
@@ -86,7 +86,7 @@ L'IDW produce una superficie più "morbida" e conservativa, tendendo a creare pa
 ## Come eseguire il progetto
 
 ```bash
-git clone https://github.com/<tuo-username>/air-quality-lombardy-2025.git
+git clone https://github.com/giuliapezzuto02-netizen/air-quality-lombardy-2025.git
 cd air-quality-lombardy-2025
 pip install -r requirements.txt
 ```

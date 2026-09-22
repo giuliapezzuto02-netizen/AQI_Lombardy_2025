@@ -11,6 +11,7 @@ I dati provengono dal portale Open Data di Regione Lombardia:
 - [Limiti amministrativi delle province](https://www.dati.lombardia.it/Territorio/Limiti-amministrativi-Province-2020-con-aggiorname/dsyz-3t5i/about_data)
 
 **Periodo analizzato:** 1 gennaio 2025 – 30 dicembre 2025
+
 **Copertura geografica:** province della Lombardia
 
 ## Struttura del repository

@@ -91,10 +91,4 @@ cd air-quality-lombardy-2025
 pip install -r requirements.txt
 ```
 
-Scarica i dati dai link indicati sopra e posizionali nella cartella `data/`, poi esegui i notebook in ordine (01 → 04).
-
-## Autore
-
-Sviluppato come progetto personale nell'ambito del percorso di laurea magistrale in Ingegneria Ambientale.
-
-[LinkedIn](www.linkedin.com/in/giulia-pezzuto-309051245) · [GitHub](https://github.com/giuliapezzuto02-netizen)
+Scarica i dati dai link indicati sopra e posizionali nella cartella `data/`, poi esegui i notebook in ordine.
